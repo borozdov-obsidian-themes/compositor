@@ -1,0 +1,17 @@
+{
+  "name": "borozdov-compositor",
+  "private": true,
+  "description": "A typeset terminal on white stock: near-black headlines, charcoal prose, hairline cards instead of shadows and one terminal green for what compiles.",
+  "license": "MIT",
+  "scripts": {
+    "fonts": "python3 scripts/embed-fonts.py",
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
